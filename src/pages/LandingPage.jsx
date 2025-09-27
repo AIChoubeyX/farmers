@@ -1,12 +1,14 @@
 @@ .. @@
  function LandingPage() {
    const { login } = useAuth();
+ }
  
    const handleGetStarted = () => {
      navigate('/auth');
    };
  
    return (
+   )
 -    <div className="min-h-screen bg-gradient-to-br from-green-50 via-white to-blue-50 relative overflow-hidden">
 +    <div className="min-h-screen bg-gradient-to-br from-secondary-50 via-white to-primary-50 relative overflow-hidden">
 +      {/* Background Video */}

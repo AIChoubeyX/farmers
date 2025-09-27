@@ -5,3 +5,4 @@
 +      <div className="min-h-screen bg-white font-poppins">
          <Navbar />
          <AnimatePresence mode="wait">
+   )
